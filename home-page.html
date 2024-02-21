@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #fff8dc;
+            color: #333;
+        }
+
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+nav ul li a {
+            color: white;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: pink;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #white;
+        }
+
+        .feature {
+            text-align: center;
+            margin-bottom: 30px;
+            background-color: #ffdead;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        } 
+
+        .feature h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .feature p {
+            font-size: 16px;
+        } 
+
+        .team {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .team li {
+            display: inline;
+            margin-right: 10px;
+        } 
+
+  	.feature img {
+           max-width: 100%;
+           height: auto;
+   	 }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Maze Game</h1>
+            <p>A thrilling adventure through challenging mazes</p>
+            <nav>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="btn">Play Now</a>
+        </div>
+    </header>
+    <section id="features">
+        <div class="container">
+            <div class="feature">
+                <img src="images/maze.jpg" alt="Feature 1" width = "100" height = "75">
+                <h2>Dynamic Maze Generation</h2>
+                <p>Experience unique and challenging mazes generated dynamically for endless gameplay.</p>
+            </div>
+            <div class="feature">
+                <img src="images/graphics.jpg" alt="Feature 2" width = "700" height = "75">
+                <h2>Realistic 3D Graphics</h2>
+                <p>Immerse yourself in the game with stunning 3D graphics that bring the maze to life.</p>
+            </div>
+            <div class="feature">
+                <img src="images/game-play.jpg" alt="Feature 3" width ="700" heigth = "75">
+                <h2>Interactive Gameplay</h2>
+                <p>Interact with the environment, solve puzzles, and find your way out of the maze.</p>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+    <div class="container">
+        <h2>About</h2>
+        <p>This project was inspired by the challenge of creating a 3D maze game using raycasting. It combines elements of creativity, problem-solving, and technical skill, making it an exciting endeavor to undertake.</p>
+        <p>As a Portfolio Project for the ALX SWE Program, this project allowed us to showcase our abilities in game development, C programming, and software engineering. It was a collaborative effort between Mr. Emmanuel, A. and Mr Victor, G. requiring effective communication and teamwork.</p>
+        <p>Overall, the Maze Game project represents our dedication to learning and our passion for creating immersive experiences through technology.</p>
+        <ul class="team">
+            <li><a href="https://www.linkedin.com/in/emmanuel-abah" target="_blank">Emmanuel's LinkedIn</a></li>
+            <li><a href="https://www.linkedin.com/in/victor-godwin" target="_blank">Victor's LinkedIn</a></li>
+            <li><a href="https://github.com/Abah-Emmanuel-Adah11?tab=repositories" target="_blank">Emmanuel's GitHub</a></li>
+            <li><a href="https://github.com/vikzenith?tab=repositories" target="_blank">Victor's GitHub</a></li>
+            <li><a href="https://x.com/Abah_E_A" target="_blank">Emmanuel's X</a></li>
+            <li><a href="https://x.com/vicelvi?s=09	" target="_blank">Victor's X</a></li>
+        </ul>
+        <p>This project is available on <a href="https://github.com/Abah-Emmanuel-Adah11/Build-your-portfolio-project-2" target="_blank">GitHub</a>.</p>
+    </div>
+</section>
+    <section id="video">
+        <div class="container">
+            <div class="video-container">
+                <video controls>
+                    <source src="video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Emmanuel & Victor</p>
+        </div>
+    </footer>
+</body>
+</html>
